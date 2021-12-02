@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(76, 134, 130);
+}
+header{
+    background: white;
+}
+
+header > h1 {
+    color: rgba(0, 37, 54, 0.726);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive ;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+}
+
+.badge {
+    background: rgb(112, 8, 29);
+    color:  white;
+    font-size: 18px;
+    padding: 2px 10px;
+    font-family: 'Bebas Neue' cursive;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bebas Neue' cursive;
+}
+
+.choices {
+    margin-top: 100px 0;
+    text-align: center;
+
+}
+
+.choice {
+    border: 6px solid white;
+    border-radius: 10%;
+    margin:  15px;
+    padding: 0px;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(124, 255, 174);
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
